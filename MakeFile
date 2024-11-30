@@ -1,0 +1,9 @@
+migrate:
+	go run main.go -migrate
+
+
+build:
+	go build -o wbtech
+
+run:
+	./wbtech

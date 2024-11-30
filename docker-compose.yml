@@ -1,0 +1,11 @@
+kafka:
+  broker: "localhost:9092"  
+  group_id: "order-group"
+  topic: "orders"   
+
+postgres:
+  host: "localhost"
+  port: 5432    
+  user: "postgres"
+  password: "mypass"
+  dbname: "orderdb"
