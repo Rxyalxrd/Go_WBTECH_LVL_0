@@ -93,5 +93,75 @@
 
   Ответ
   ```bash
-  
+    "order": {
+        "id": 1,
+        "order_uid": "b563feg7b2b84b6test",
+        "track_number": "WBILMTESTTRACK",
+        "entry": "WBIL",
+        "locale": "en",
+        "internal_signature": "",
+        "customer_id": "test",
+        "delivery_service": "meest",
+        "shardkey": "9",
+        "sm_id": 99,
+        "date_created": "2021-11-26T06:22:19Z",
+        "oof_shard": "1",
+        "delivery": {
+            "ID": 1,
+            "OrderID": 0,
+            "Name": "Test Testov",
+            "Phone": "+9720000000",
+            "Zip": "2639809",
+            "City": "Kiryat Mozkin",
+            "Address": "Ploshad Mira 15",
+            "Region": "Kraiot",
+            "Email": "test@gmail.com"
+        },
+        "payment": {
+            "ID": 1,
+            "OrderID": 0,
+            "Transaction": "b563feb7b2b84b6test",
+            "RequestID": "",
+            "Currency": "USD",
+            "Provider": "wbpay",
+            "Amount": 1817,
+            "PaymentDT": 0,
+            "Bank": "alpha",
+            "DeliveryCost": 0,
+            "GoodsTotal": 0,
+            "CustomFee": 0
+        },
+        "items": [
+            {
+                "ID": 1,
+                "OrderID": 1,
+                "ChrtID": 0,
+                "TrackNumber": "",
+                "Price": 453,
+                "Rid": "ab4219087a764ae0btest",
+                "Name": "Mascaras",
+                "Sale": 30,
+                "Size": "0",
+                "TotalPrice": 0,
+                "NmID": 0,
+                "Brand": "Vivienne Sabo",
+                "Status": 202
+            },
+            {
+                "ID": 2,
+                "OrderID": 1,
+                "ChrtID": 0,
+                "TrackNumber": "",
+                "Price": 453,
+                "Rid": "ab4219087a764ae0btest",
+                "Name": "Mascaras",
+                "Sale": 30,
+                "Size": "0",
+                "TotalPrice": 0,
+                "NmID": 0,
+                "Brand": "Vivienne Sabo",
+                "Status": 202
+            }
+        ]
+    }
   ```
